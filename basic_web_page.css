@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+body {
+margin: 0;
+padding: 80px;
+}
+a {
+    text-decoration: none;
+}
+.nav-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    background-color: gainsboro;
+    border-bottom: 1px solid gray;
+}
+.top-nav {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.nav-link {
+    font-size: 16px;
+    padding: 0 10px;
+}
+a:hover {
+    text-decoration: underline;
+}
+.logo {
+    display: inline-block;
+    font-weight: 800;
+}
+.logo h1 {
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+.search-section {
+    margin-bottom: 30px;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+.search-section input {
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 30px;
+    height: 30px;
+    border: 1px solid #DDDDDD;
+    border-radius: 3px;
+    padding: 0 5px 0 8px;
+    width: 400px; 
+}
+.search-section .search-button {
+    font-size: 17px;
+    width: 37px;
+    height: auto;
+    padding: 2px 6px 3px 6px;
+    background-color: white;
+    border: 1px solid #DDDDDD;
+    border-radius: 3px;
+}
+.pages {
+    display: inline-block;
+    font-size: 0;
+    margin-bottom: 30px;
+    border: 1px solid gray;
+    border-radius: 30px;
+}
+.pages-button {
+    font-size: 15px;
+    display: inline-block;
+    padding: 8px 15px;
+    border-radius: 3px;
+}
+.pages-display {
+    font-size: 15px;
+    padding: 8px 25px;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+}
+.listing {
+    list-style: none;
+    margin-bottom: 15px;
+}
+.listing-date, .listing-location {
+    color:black;
+}
+.listing-title {
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.search-button {
+    vertical-align: bottom;
+}
+.star-icon, .magnifying-glass-icon {
+    height: 100%
+}
