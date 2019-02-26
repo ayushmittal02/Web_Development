@@ -1,0 +1,21 @@
+header {
+    background-color: goldenrod;
+    margin-bottom: 40px;
+}
+header h1 {
+    line-height: 1;
+    margin-bottom: 0;
+}
+header p {
+    margin-top: 15px;
+}
+.image {
+    width: 100%;
+}
+.card {
+    border: 1px solid rgb(231, 226, 226);
+    margin-bottom: 20px;
+}
+.card-content {
+    padding: 20px;
+}
